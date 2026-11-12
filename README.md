@@ -1,5 +1,17 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+・このWebアプリは、わたし(Yasushi Obata)が、React,Next.js,Vercel,WebAPI,クラウドネイティブアプリを理解していることを示します。
 
+・「猫画像ジェネレーター」です。どんなものかというと、ボタンを押したら、猫画像のWebAPIから画像のURLを取得し、ランダムに可愛い猫画像を表示するシンプルなクラウドネイティブアプリです。
+➡️React (リアクト)は、ウェブブラウザで複雑なUIを容易に生成するためのフリーかつオープンソースなフロントエンドJavaScriptライブラリで、クライアントサイドであること、コンポーネントベースであること、仮想DOMを扱うこと、といった特徴を持ちます。
+➡️Next.js（ネクストジェイエス）は、ReactベースのオープンソースのフルスタックWebアプリケーションフレームワークで、ファイルシステムベースのルーティング、サーバーおよびクライアントでのレンダリング、データ取得、静的Webサイトの生成などの機能を提供します。
+➡️Vercelは、Next.jsを開発しているVercel社が提供しているフロントエンド向けのクラウドプラットフォームです。
+➡️WebAPIは、HTTP(Hypertext Transfer Protocol)リクエストメッセージなどの仕様のセットと、XML(拡張マークアップ言語)またはJSON(JavaScript Object Notation）形式などの応答メッセージの構造の定義を指す。
+➡️Vercel上で動くアプリは、サーバーレスアーキテクチャの採用、
+自動化されたCI/CDパイプライン、疎結合と外部サービスの活用等の特徴をもつ、クラウドネイティブアプリです。
+
+・どんなものかすぐに見たい場合は、Vercelにデプロイしてますので、下記のリンクから確認できます。
+[Vercel](https://random-cat-omega-rose.vercel.app)
+
+・MacOS,Linux,Windows等で、ローカル環境を構築する場合の手順は以下となります。
 ## Getting Started
 
 First, run the development server:
