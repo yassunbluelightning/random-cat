@@ -1,6 +1,10 @@
 ・ここでは、わたし(Yasushi Obata)が、WebAPI,React,Next.js,Vercel,クラウドネイティブアプリを理解していることを示します。 <br>
-
+• アプリの公開URL<br>
+・どんなものかすぐに見たい場合は、Vercelにデプロイしてますので、下記のリンクからご確認ください。<br>
+[Vercel上で確認](https://random-cat-omega-rose.vercel.app)
+• アプリの概要・作った背景<br>
 ・「猫画像ジェネレーター」です。どんなものかというと、ボタンを押したら、猫画像のWebAPIから画像のURLを取得し、ランダムに可愛い猫画像を表示するシンプルなクラウドネイティブアプリです。<br>
+• 使用技術・ライブラリ一覧<br>
 ➡️WebAPIは、HTTP(Hypertext Transfer Protocol)リクエストメッセージなどの仕様のセットと、XML(拡張マークアップ言語)またはJSON(JavaScript Object Notation）形式などの応答メッセージの構造の定義を指します。<br>
 ➡️React (リアクト)は、ウェブブラウザで複雑なUIを容易に生成するためのフリーかつオープンソースなフロントエンドJavaScriptライブラリで、クライアントサイドであること、コンポーネントベースであること、仮想DOMを扱うこと、といった特徴を持ちます。<br>
 ➡️Next.js（ネクストジェイエス）は、ReactベースのオープンソースのフルスタックWebアプリケーションフレームワークで、ファイルシステムベースのルーティング、サーバーおよびクライアントでのレンダリング、データ取得、静的Webサイトの生成などの機能を提供します。<br>
@@ -8,10 +12,6 @@
 ➡️Vercel上で動くアプリは、サーバーレスアーキテクチャの採用、
 自動化されたCI/CDパイプライン、疎結合と外部サービスの活用等の特徴をもつ、クラウドネイティブアプリです。<br>
 <br>
-・どんなものかすぐに見たい場合は、Vercelにデプロイしてますので、下記のリンクからご確認ください。<br>
-[Vercel上で確認](https://random-cat-omega-rose.vercel.app)
-<br>
-
 ## Getting Started; MacOS,Linux,Windows等で、ローカル環境を構築する場合の手順は以下となります。
 
 First, run the development server:
