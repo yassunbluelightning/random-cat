@@ -9,7 +9,7 @@
 自動化されたCI/CDパイプライン、疎結合と外部サービスの活用等の特徴をもつ、クラウドネイティブアプリです。<br>
 <br>
 ・どんなものかすぐに見たい場合は、Vercelにデプロイしてますので、下記のリンクから確認できます。<br>
-[Vercel](https://random-cat-omega-rose.vercel.app)
+[Vercel上で確認](https://random-cat-omega-rose.vercel.app)
 <br>
 ・MacOS,Linux,Windows等で、ローカル環境を構築する場合の手順は以下となります。<br>
 ## Getting Started
