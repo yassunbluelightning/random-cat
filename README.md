@@ -17,9 +17,9 @@
 At the First, create a New Project. in this case, we use "random-cat" as the New Project Name.
 ```bash
 npm create next-app@latest random-cat -y -- --yes
+cd random-cat
 ```
 At the Second, run the development server:
-
 ```bash
 npm run dev
 # or
