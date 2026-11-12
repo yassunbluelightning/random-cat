@@ -14,8 +14,11 @@
 自動化されたCI/CDパイプライン、疎結合と外部サービスの活用等の特徴をもつ、クラウドネイティブアプリです。<br>
 <br>
 ## Getting Started; MacOS,Linux,Windows等で、ローカル環境を構築する場合の手順は以下となります。
-
-First, run the development server:
+At the First, create a New Project. in this case, we use "random-cat" as the New Project Name.
+```bash
+npm create next-app@latest random-cat -y -- --yes
+```
+At the Second, run the development server:
 
 ```bash
 npm run dev
