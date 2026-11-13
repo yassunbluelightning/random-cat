@@ -20,12 +20,12 @@ export function CatImage({ url }: CatImageProps) {
  
   return (
     <div className={styles.page}>
-      {/* (4) ボタンの表示; クリックされたらrefreshImage関数が呼び出される。 */}
+      {/* (4) ボタンの表示; クリックされたらrefreshImage関数が呼び出される。CSSファイル内の.buttonクラスのスタイルをbuttonタグに適用する。 */}
       <button onClick={refreshImage} className={styles.button}>
         他のにゃんこも見る
       </button>
       <div className={styles.frame}>
-        {/* (5) 画像の表示;imageUrlが空文字列でなければ、imgタグを表示する。 */}
+        {/* (5) 画像の表示;imageUrlが空文字列でなければ、imgタグを表示する。CSSファイル内の.imgクラスのスタイルをimgタグに適用する。  */}
         {imageUrl && <img src={imageUrl} className={styles.img} />}
       </div>
     </div>
