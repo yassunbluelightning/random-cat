@@ -1,6 +1,6 @@
 "use server";//fetchImage()を常にサーバーサイドで実行。
  
-import { CAT_API_KEY } from "./env"; // 追加
+import { CAT_API_KEY } from "./env"; // 追加;APIキーを環境変数として管理すると、ソースコードにAPIキーを直接描かなくてよくなる。
 
 
 // 画像情報の型定義
