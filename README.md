@@ -16,7 +16,7 @@
 ## ソースコード構成;
 🔷app/page.tsx<br>
 ➡️Home();<br>
-  <CatImage>タグを表示する;<br>
+  [<CatImage>]タグを表示する;<br>
 🔷app/fetch-image.ts<br>
 ➡️fetchImage();//APIキーを渡して画像情報の配列を取得し、画像情報の配列から最初の配列を返す;<br>
 🔷app/cat-image.tsx<br>
