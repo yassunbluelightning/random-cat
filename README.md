@@ -13,6 +13,28 @@
 ➡️Vercel上で動くアプリは、サーバーレスアーキテクチャの採用、
 自動化されたCI/CDパイプライン、疎結合と外部サービスの活用等の特徴をもつ、クラウドネイティブアプリです。<br>
 <br>
+## ソースコード構成;
+🔷app/page.tsx<br>
+➡️Home();<br>
+  <CatImage>タグを表示する;<br>
+🔷app/fetch-image.ts<br>
+➡️fetchImage();//APIキーを渡して画像情報の配列を取得し、画像情報の配列から最初の配列を返す;<br>
+🔷app/cat-image.tsx<br>
+➡️CatImage();//ボタンクリックで画像が更新されるようにする;<br>
+　　<button>タグを表示する;<br>
+   <img>タグを表示する;<br>
+🔷app/.env<br>
+➡️CAT_API_KEY//APIキーを環境変数に設定する;<br>
+🔷app/env.ts<br>
+➡️CAT_API_KEY//環境変数からAPIキーを取得して返す;<br>
+<br>
+## 工夫した点・技術的なこだわり
+➡️状態管理は、ReactのuseStateフックを使い、
+状態変数imageUrl,状態更新関数setImageUrl()を定義しています。<br>
+➡️ボタンクリックでsetImageUrl()が呼ばれると、
+imageUrlの値を書き換えられ、
+<img>タグの画像が更新されます。<br>
+<br>
 ## Getting Started; MacOS,Linux,Windows等で、ローカル環境を構築する場合の手順は以下となります。
 At the First, create a New Project. in this case, we use "random-cat" as the New Project Name.
 ```bash
