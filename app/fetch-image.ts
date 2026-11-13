@@ -1,4 +1,4 @@
-"use server";
+"use server";//fetchImage()を常にサーバーサイドで実行。
  
 import { CAT_API_KEY } from "./env"; // 追加
 
